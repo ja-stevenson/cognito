@@ -1,0 +1,32 @@
+{
+  "name": "aws-cloudformation-cognito-identity-pool",
+  "version": "1.0.1",
+  "private": true,
+  "description": "AWS Cloudformation Lambda-backed Custom Resource to Create/Update/Delete Cognito Identity Pools",
+  "engines": {
+    "node": ">=6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "lambda",
+    "cognito",
+    "cognitoidentity",
+    "iam"
+  ],
+  "author": "Barrett K. Harber",
+  "license": "Unlicense",
+  "devDependencies": {
+    "aws-sdk-js-on-lambda": "binoculars/aws-sdk-js-on-lambda",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-zip": "^4.0.0",
+    "mocha": "^3.0.2",
+    "run-sequence": "^1.2.2"
+  }
+}
